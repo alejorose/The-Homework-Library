@@ -1,0 +1,57 @@
+.trabajo {
+    height: 50vh;
+    width: 33vw;
+    background-color: rgba(80, 80, 80, 0.356);
+    text-align: center;
+    padding-top: 20vh;
+    z-index: 1;
+    
+    
+    
+}
+
+.trabajos {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-flex;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.asesor {
+    background-image: linear-gradient(to top, rgba(103, 108, 116, 0.507) 0%, rgba(0, 0, 0, 0.5) 130%), url(/imagenes/asesor.jpg );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center;
+  
+}
+
+.tutor {
+    background-image: linear-gradient(to top, rgba(103, 108, 116, 0.507) 0%, rgba(0, 0, 0, 0.5) 130%), url(/imagenes/tutor.jpg );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center;
+  
+}
+
+.clasif{
+    background-image: linear-gradient(to top, rgba(103, 108, 116, 0.507) 0%, rgba(0, 0, 0, 0.5) 130%), url(/imagenes/Calificador.jfif );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-position: center;
+  
+}
+
+
+.txt_bg {
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 100px;
+    color: white;
+}

@@ -1,0 +1,81 @@
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(25, 23, 29);
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+
+
+  /* menu opciones */
+
+  
+
+  /* tutores */
+
+
+.tutores {
+    text-align: center;
+    width: 100vw;
+    
+}
+
+
+.tutor {
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 38, 0);
+    height: 300px;
+    width: 70vw;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+
+}
+  .tutor img{
+      margin-top: 0.5px;
+      width: 200px;
+      height: 296px;
+      border-radius: 10px  0 0 10px;
+
+
+    
+
+
+    
+}
+
+.txt_tutores {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.img_inicio {
+    border-radius: 10px 0 0 0;
+    height: 39vh;
+    margin-top: 8px;
+
+}
+
+.cont_mensajes {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.parrafos_main {
+    font-size: 12px;
+}
+
+
+

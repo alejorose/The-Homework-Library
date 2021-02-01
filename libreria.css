@@ -1,0 +1,190 @@
+html, body {
+    
+    height: 100%;
+    font-family: 'Glegoo', serif;
+}
+
+
+
+
+/* container */
+
+.container_lb {
+
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 50vh;
+    max-height: 100vh;
+   
+    justify-content: space-evenly;
+    padding-right: 5vw;
+    
+    
+  }
+  .wrapper {
+      margin-bottom: 0;
+  }
+
+
+
+  /* imagen */
+
+  .decoracion{
+      float: left;
+      text-align: left;
+      height: 20vh;
+      width: 25vw;
+  }
+
+
+  .decoracion img {
+    height: 50vh;
+    width: 55vw;
+    margin-right: 20vw;
+  }
+
+ 
+/* categorias */
+
+
+.categ_card h2 {
+    color: white;
+    
+}
+.categoria_lb {
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.ctg {
+    list-style: none;
+    height: 40px;
+    width: 10vw;
+    background-color: rgb(47, 47, 47);
+    margin-top: 10px;
+    text-align: right;
+    padding-right: 9px;
+    align-items: center;
+    padding-top: 10px;
+    transition: 0.25s;
+    border-radius: 0 10px 0 10px;
+    color: white;
+}
+
+.ctg_ul {
+    align-content: left;
+    padding: 0;
+}
+
+/* animacion categorias */
+
+.ctg:hover {
+    width: 13vw;
+}
+
+  /* cartas */
+.card {
+    border: 2px solid gray;
+    width: 200px;
+    height: 300px;
+    margin-top: 300px;
+    margin: 20px;
+    align-items: center;
+  
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+  
+    
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+
+}
+
+
+
+
+.card-body {
+    background-color: gray;
+    margin-bottom: 20px;
+}
+
+
+.categ_card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+
+.contenedor_cards {
+
+    display: inline;
+    justify-content: space-evenly;
+ 
+    height: auto;
+   
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    
+}
+
+.scroll {
+
+    max-width: 80vw;
+    max-height: 90vw;
+    overflow: auto;
+
+}
+
+.card {
+
+    background-image: url(/imagenes/fondo\ libreria\ v3jpg.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    align-items: baseline;
+}
+
+.texto_card {
+    background-color: white;
+    min-height: 100px;
+    max-height: 120px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px 10px 0 0 ;
+    transition: 0.35s;
+    max-width: 196px;
+    min-width: 196px;
+    text-overflow: hidden;
+    
+    
+}
+
+
+/* .mas {
+    margin-left: 76px;
+
+}
+
+.mas:hover  {
+    display: none;
+
+
+
+    
+} 
+ 
+ .texto_card:hover {
+    max-height: 250px;
+
+
+ } */
+

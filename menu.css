@@ -1,0 +1,285 @@
+
+html, body {
+    /* IE 10-11 didn't like using min-height */
+    height: 100%;
+ 
+        background-color: rgb(25, 23, 29);
+      
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+
+
+#contenedor_top {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+
+/* menu categorias */
+
+.cont_nav_opciones{
+
+
+
+    height: 300px;
+  }
+
+  .categorias {
+      border-top: solid 2px rgb(255, 255, 255);
+      border-bottom: solid 2px rgb(255, 255, 255); 
+    text-align: right;
+      align-items: center;
+      height: 50px;
+      display: inline-flex;
+      width: 100vw;
+      margin-top: 20px;
+      color: white;
+  }
+
+  .categorias ul {
+      list-style: none;
+      display: inline-flex;
+    
+  }
+  
+  .ul_ctg {
+      align-items: center;
+      margin-top: 10px;
+      margin-right: 20px;
+     
+  }
+
+  .ul_ctg li {
+      margin-left: 20px;
+  }
+  
+  .categorias h2 {
+      text-align: left;
+      margin-right: 50vw;
+  }
+
+
+/* menu */
+
+.ul_nav {
+    list-style: none;
+    display: inline-flex;
+    background-color: #111114;
+    width: 100%;
+    height: 60px;
+    align-items: top;
+    margin-top: 0;
+    z-index: 0;
+    
+    
+}
+
+.li_nav {
+    margin-left: 2vw;
+    background-color: rgb(255, 255, 255);
+    
+    z-index: 1;
+    overflow: cover;
+   transition: 0.25s;
+   border-radius: 0 0 10px 10px ;
+
+    
+}
+
+
+
+#lib {
+    width: 100px;
+    height: 17vh;
+    text-align: center;
+    background-color: #1e1b25;
+    border-bottom: 2px solid white;
+   border-left: 2px solid white;
+border-right: 2px solid white;
+}
+
+#lib:hover {
+    height: 18vh;
+    cursor: pointer;
+}
+
+#tut {
+    width: 100px;
+    height: 15vh;
+    text-align: center;
+    background-color: #1e1b25;
+    border-bottom: 2px solid white;
+   border-left: 2px solid white;
+border-right: 2px solid white;
+}
+
+#tut:hover {
+    height: 18vh;
+    cursor: pointer;
+}
+
+#ase {
+    width: 100px;
+    height: 13vh;
+    text-align: center; 
+    background-color: #1e1b25;
+    border-bottom: 2px solid white;
+   border-left: 2px solid white;
+border-right: 2px solid white;
+}
+
+#ase:hover {
+    height: 18vh;
+    cursor: pointer;
+}
+
+#tra {
+    width: 100px;
+    height: 11vh;
+    text-align: center;
+    background-color: #1e1b25;
+    border-bottom: 2px solid white;
+   border-left: 2px solid white;
+border-right: 2px solid white;
+
+}
+
+#tra:hover {
+    height: 18vh;
+    cursor: pointer;
+}
+
+/* menu derecha */
+.a_nav {
+    text-decoration: none;
+  
+    color: rgb(255, 255, 255);
+}
+
+.a_nav:hover {
+    color: white;
+}
+
+.nav_der {
+    display: inline-flex;
+    text-align: right;
+    margin-left: 20vw;
+    align-items: center;
+}
+
+
+.a_navDer {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.a_navDer:hover {
+    color: rgb(119, 120, 121);
+}
+
+.li_navDer {
+
+    margin-left: 2vw;
+}
+
+#signIn {
+
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.25s;
+    
+}
+
+#signIn:hover {
+    color: black;
+    background-color: white
+    
+}
+
+/* header */
+
+.header {
+    align-items: center;
+    margin-bottom: 2vh;
+    background-image: linear-gradient(to top, rgba(103, 108, 116, 0.507) 0%, rgba(0, 0, 0, 0.5) 130%), url(/imagenes/fondo\ libros.jpg );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+
+    border-bottom: 3px solid rgb(255, 38, 0);
+    
+    
+    margin-top: -20px;
+    z-index: 0;
+
+       
+  display: inline-flex;
+ 
+  width: 100%;
+  height: 45vh;
+
+
+  
+}
+
+ /* texto */
+
+ #seccion1 {
+    text-align: right;
+    align-items: baseline;
+}
+.seccion {
+    
+    align-items: center;
+    width: 40vw;
+    margin-right: 0;
+    margin-left: 50vw;
+    margin-bottom: 50px;
+}
+
+.titulo1 {
+    margin-top: 20vh;
+}
+
+/* footer */
+/* footer {
+    background-color: rgb(31, 31, 31);
+    height: 200px;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    
+   
+    
+}
+
+.txt_footer {
+
+margin-right: 10vw;
+margin-left: 10vw;
+     
+
+}*/
+
+.footer {
+    color: rgb(116, 112, 141);
+  
+    margin-bottom: 20px;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+   
+}

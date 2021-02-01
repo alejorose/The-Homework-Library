@@ -1,0 +1,62 @@
+@media screen and (min-width: 1170px) {
+
+.nav_der {
+    margin-left: 30vw;
+}
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .nav_der {
+        margin-left: 40vw;
+    }
+    
+    }
+    
+@media screen and (min-width: 1600px) {
+
+    .nav_der {
+        margin-left: 50vw;
+    }
+    
+    }
+    
+
+
+
+    /* categorias menu */
+
+
+ 
+@media screen and (min-width: 400px) {
+
+    .categorias h2 {
+        text-align: left;
+        margin-right: 15vw;
+    }
+ }
+
+@media screen and (min-width: 700px) {
+
+    .categorias h2 {
+        text-align: left;
+        margin-right: 35vw;
+    }
+ }
+ 
+ @media screen and (min-width: 1170px) {
+
+    .categorias h2 {
+        text-align: left;
+        margin-right: 70vw;
+    }
+ }
+ 
+ @media screen and (min-width: 1400px) {
+
+    .categorias h2 {
+        text-align: left;
+        margin-right: 90vw;
+    }
+ }
